@@ -1,0 +1,169 @@
+ /* Your Website Styles */
+  body {
+    background: url("../img/cartographer.png");
+  }
+
+  p {
+    text-align: center;
+    font-family: "Droid Serif", serif;
+    color: teal;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 30px;
+    color: turquoise;
+  }
+  
+  h2 + p {
+   
+    text-align: center;
+    font-family: "Gafata", serif;
+    color: teal;
+    font-size: 25px;
+   
+  }
+  
+  
+  
+  /* Gallery Stying */
+  .gallery .control-button {
+    color: #ccc;
+    color: teal;
+  }
+  
+  .gallery .control-button:hover {
+    color: white;
+    color: teal;
+  }
+  
+  /*
+    Theme controls how everything looks in Gallery CSS.
+  */
+  
+  
+  .gallery {
+    position: relative;
+  }
+  .gallery .item {
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    border-top: 10px double teal;
+  }
+  
+  .gallery .controls {
+    position: absolute;
+    bottom: -120px;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .gallery .controls img {
+    border: 2px solid;
+    color: teal;
+    border-radius: 120px;
+    width: 45px;
+    margin:10px ;
+  }
+  .gallery .control-button {
+    display: inline-block;
+    margin: 0 .02em;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    transition: color .1s;
+  }
+  
+  img {
+    max-width: 150%;
+  }
+  .symbol {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  
+  /* Media Queries */
+  
+  
+  @media screen and (max-width: 665px){
+  
+  .gallery .item {
+    height: 350px;
+  }
+    
+
+  }
+  
+  @media screen and (max-width: 570px){
+  
+    .gallery .item {
+    height: 300px;
+    }
+  
+  p {
+    margin-bottom: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  h2 {
+  
+    font-size: 25px;
+   
+  }
+  
+  h2 + p {
+   
+  
+    font-size: 15px;
+   
+  
+  }
+  @media screen and (max-width: 485px){
+  
+    .gallery .item {
+    height: 250px;
+    }
+  
+  }
+  @media screen and (max-width: 406px){
+   .gallery .item {
+    height: 225px;
+  }
+  
+   .gallery .controls {
+    
+    bottom: -100px;
+    width: 100%;
+  }
+    .gallery .controls img {
+    border: 2px solid rgb(107,184,198);
+    border-radius: 75px;
+    width: 40px;
+    margin: 0 5px;
+  }
+    
+  
+  }
+@media screen and (max-width: 375px){
+   .gallery .item {
+      height: 200px;
+    }
+}
+
+
+
+
+
+
+
+  
+  
