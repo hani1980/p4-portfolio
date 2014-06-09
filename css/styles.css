@@ -2,6 +2,76 @@
   body {
     background: url("../img/cartographer.png");
   }
+  .wrapper{
+    margin: 138px auto 60px auto;
+    width: 80%;
+    max-width: 788px;
+    min-width: 356px;
+    transition: all .25s;
+ }
+nav {
+    background: teal;
+    min-width: 283px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    line-height: .6em;  /*5px*/
+    /*border-top: 12px solid ;*/
+    border-bottom: 12px solid ;
+    transition: all .2s;
+}
+nav img{
+    width: 177px;
+}
+nav li:nth-child(1n+2) a{
+    border-radius: 50px;
+    padding: 22px 10px;
+}
+
+ul,
+li{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+}
+ul{
+    width: 100%;
+    margin: 3px auto;
+    padding: 0;
+    list-style: none;
+    transition: all 1s;
+
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+li{
+    margin: 2px 18px;
+    min-height: 71px;
+    vertical-align: middle;
+    align-items: center;
+}
+li a{
+        font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-style: italic;
+}
 
   p {
     text-align: center;
